@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>porducts</title>
+<link href="css/products.css" rel="stylesheet" type="text/css">
+	<!--返回顶部js开始-->
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+<!--返回顶部js开始-->
+	<!--大图切换js和css-->
+<link rel="stylesheet" href="css/lb.css">
+<script src="js/lb.js"></script>
+<script>
+window.onload = function () {
+  // 轮播选项
+  const options = {
+	id: 'lb-1',              // 轮播盒ID
+	speed: 600,              // 轮播速度(ms)
+	delay: 2000,             // 轮播延迟(ms)
+	direction: 'left',       // 图片滑动方向
+	moniterKeyEvent: true,   // 是否监听键盘事件
+	moniterTouchEvent: true  // 是否监听屏幕滑动事件
+  }
+  const lb = new Lb(options);
+  lb.start();
+}
+</script>
+<!--大图切换js和css结束-->
+
+<!--下拉菜单js-->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".nav>li").hover(function(){
+			$(this).children('ul').stop(true,true).show(300);
+		},function(){
+			$(this).children('ul').stop(true,true).hide(300);
+		})
+	})
+</script>
+<!--下拉菜单js结束-->
+</head>
+
+<body>
+	<!-- header -->
+    <div class="header">
+        <div class="link">
+            <a href="">FIND A DEALER&nbsp;&nbsp;</a>
+            <span>/</span>
+            <a href="">&nbsp;&nbsp;SERVICE CENTER</a>
+        </div>
+        <div class="new">
+            <h1></h1>
+            <div class="nav-01">
+                            <!--下拉菜单 start-->
+            	        <div class="menu">
+            		<ul class="nav">
+            			<li><a href="index.html">HOME</a>
+            				
+            			</li>
+            			<li><a href="products.html">PRODUCTS</a>
+            				<ul class="sub-nav">
+            					<li><a href="#">PRODUCTS-01</a></li>
+            					<li><a href="#">PRODUCTS-02</a></li>
+            					<li><a href="#">PRODUCTS-03</a></li>
+            					<li><a href="#">PRODUCTS-04</a></li>
+            				</ul>
+            			</li>
+            			<li><a href="stories.html">STORIES</a>
+            	
+            			</li>
+            			<li><a href="support.html">SUPPORT</a>
+            				<ul class="sub-nav">
+            					<li><a href="#">SUPPORT-01</a></li>
+            					<li><a href="#">SUPPORT-02</a></li>
+            				</ul>
+            			</li>
+            </div>
+            <!--下拉菜单 end-->
+          </div>
+            <div class="icon">
+                <a href="" class="ss"></a>
+                <a href="sign.html" class="yh"></a>
+                <a href="" class="gw"></a>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+<!--banner	-->
+<!--大图切换js特效-->
+    <div class="lb-box" id="lb-1">
+    <!-- 轮播内容 -->
+    <div class="lb-content">
+      <div class="lb-item active">
+    	
+    	  <a href="#">
+   	    <img src="img/products_02.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题4</span>-->
+    	</a>
+    		
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+    	<img src="img/products_02.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题2</span>-->
+    	  
+    	</a>
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+    	 <img src="img/products_02.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题3</span>-->
+    	</a>
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+   	    <img src="img/products_02.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题4</span>-->
+    	</a>
+      </div>   
+    </div>
+    <!-- 轮播标志 -->
+    <ol class="lb-sign">
+      <li class="active">1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ol>
+    <!-- 轮播控件 -->
+    <div class="lb-ctrl left">＜</div>
+    <div class="lb-ctrl right">＞</div>
+    </div>
+    <!--大图切换js特效结束-->
+    
+
+<!--垂直导航栏-->
+	<div class="banner-nr">
+		<a href="index.html" class="link01">Home</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span><a href="#" class="link01">products</a>
+		<h4>OUR PRODUCTS</h4>
+		<h1>PRODUCTS</h1>
+		<ul class="nav01">
+			<li><a href="#">SPORTS WATCHES</a></li>
+			<li><a href="#">DIVE PRODUCTS</a></li>
+			<li><a href="#">SPORTS WATCHES</a></li>
+			<li><a href="#">DIVE PRODUCTS </a></li>
+			<li><a href="#">COMPASSES</a></li>
+			<li><a href="#">ACCESSORIE</a></li>
+			<li><a href="#">SUUNTO APP</a></li>
+			<li><a href="#">SUUNTOPLUS</a></li>
+			<li><a href="#">PARTNERS</a></li>
+		</ul>
+		
+	  <div class="box01">
+	    	<img src="img/products_05.jpg" width="220" height="350" alt=""/>
+			<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+		<div class="box01">
+	    	<img src="img/products_07.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	  <div class="box01">
+	    	<img src="img/products_09.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	  <div class="box01">
+	    	<img src="img/products_11.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+	  </div>
+	  <div class="box01">
+	    	<img src="img/products_17.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	  <div class="box01">
+	    	<img src="img/products_18.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	  <div class="box01">
+	    <img src="img/products_19.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	  <div class="box01">
+	    <img src="img/products_20.jpg" width="220" height="350" alt=""/>
+<h3>SUUNTO&nbsp;7</h3>
+			<p class="min-title">
+				<span>Gold Special Edition (HR)</span>
+				<br>
+				<br>
+				Durable multisport GPS watch with a long battery life and barometric altitude. Light weight, soft, breathable textilestrap with hook and loop closure.
+			</p>
+			<a href="#" class="anniu">Buy now </a>
+		</div>
+	</div>
+	
+	<!--footer	-->
+	<div class="footer">
+		<h4>FOLLOW US</h4>
+		<div class="icon">
+			<a class="a" href="#"></a>
+			<a href="#" class="b"></a>
+			<a href="#" class="c"></a>
+			<a href="#" class="d"></a>
+			<a href="#" class="e"></a>
+		</div>
+		<div class="box">
+			<div class="link01">
+				<p>FOLLOW US</p>
+				<a href="#">Support main page</a>
+				<a href="#">Software updates</a>
+				<a href="#">User guides</a>
+				<a href="#">Suunto Repair Center</a>
+				<a href="#">Service Centers</a>
+				<a href="#">Tutorial Tuesday</a>
+				<a href="#">Product Registration</a>
+				<a href="#">Contact us</a>
+			</div>
+			<div class="link02">
+				<p>WHERE TO BUY</p>
+				<a href="#">Sale</a>
+				<a href="#">Suunto Webshop</a>
+				<a href="#">FAQs for Suunto Webshop</a>
+				<a href="#">Sates Tems and Conditions</a>
+				<a href="#">Dealer locator</a>
+				<a href="#">VIP Program</a>
+			</div>
+			<div class="link03">
+				<p>ABOUT SUUNTO</p>
+				<a href="#">News</a>
+				<a href="#">Company info</a>
+				<a href="#">Careers</a>
+				<a href="#">Heritage</a>
+				<a href="#">Media</a>
+				<a href="#">Environment</a>
+				<a href="#">Declarations of Conformity</a>
+				<a href="#">Newsletter</a>
+			</div>
+			<div class="link04">
+				<p>PARTNERS</p>
+				<a href="#">Strava</a>
+				<a href="#">TrainingPeaks</a>
+				<a href="#">Endomondo</a>
+				<a href="#">Value Pack</a>
+				<a href="#">Welcome Oartners</a>
+				<a href="#">Partners</a>
+			</div>
+		</div>
+	</div>
+<!--	bq-->
+	<footer>
+        <a href="">AN&nbsp;AMER&nbsp;SPORTS&nbsp;BRAND&nbsp;COPYRIGHT&nbsp;©&nbsp;2020&nbsp;SUUNTO.ALL&nbsp;RIGHTS&nbsp;RESERVED</a>
+    </footer>
+	<!--返回顶部开始-->
+	<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+	<!--返回顶部结束-->
+</body>
+</html>

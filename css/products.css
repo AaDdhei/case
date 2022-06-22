@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,img,ul,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;border: 0;}
+ul,li{list-style-type: none;}
+a{text-decoration: none;color: #333;}
+body{font-size: 16px;font-family: Aria;color: #333;}
+
+/* header */
+.header{width: 1200px;height: 120px;margin-left: auto;margin-right: auto;position: relative;}
+    .header .link{width: 291px;height: auto;position: absolute;top: 10px;right: 0px;text-align: right;}
+    .header .link a{color: #333;}
+.header .link a:hover{color: #f00;}
+    .header .new{width: 1200px;height: auto;position: absolute;top: 40px;}
+    .header h1{width: 130px;height: 50px;background: url(../img/logo.png) no-repeat center center;}
+    
+    .header .new .nav-01{width: 480px;height: 31px;position: absolute;left: 250px;top: 20px; z-index: 9999;}
+        /*下拉菜单css*/
+    .nav *{text-decoration:none;font-size:16px;}
+    .nav * a:hover{border-bottom: 3px solid #f00;}
+    .menu{list-style:none;height:40px;width:480px;}
+    .nav{list-style:none;height:40px;width:480px;margin:0 auto;}
+    .nav li{float:left;position:relative;}
+    .nav li a{color:#333;height:38px;line-height:38px;font-weight:bold;padding:0 20px;blr:expression(this.onFocus=this.close());blr:expression(this.onFocus=this.blur());display:inline-block;}
+    .nav li a:focus{-moz-outline-style: none; }
+    .nav li .sub-nav{position:absolute;top:39px;left:-1px;list-style:none;background-color:#eee;display:none;}
+    .nav li .sub-nav li{text-align:center;clear:left;width:160px;height:50px;line-height:50px;position:relative;}
+    .nav li .sub-nav li a{height:50px;line-height:50px;width:160px;padding:0;display:inline-block;}
+    /*下拉菜单css结束*/
+
+    .header .new .icon{width: auto;height: 36px;;position: absolute;right: 0;top: 20px;}
+    .header .new .icon a{width: 36px;height: 36px;display: block;float: left;}
+
+    .header .new .icon .ss{background: url(../img/icon-search.png) no-repeat center center;}
+    .header .new .icon .ss:hover{background: url("../img/icon-search-hover.png") no-repeat center center;}
+    .header .new .icon .yh{background: url(../img/icon-user.png) no-repeat center center;padding-left: 20px;padding-right: 20px;}
+    .header .new .icon .yh:hover{background: url("../img/icon-user-hover.png") no-repeat center center;}
+    .header .new .icon .gw{background: url(../img/icon-shopping.png) no-repeat center center;}
+    .header .new .icon .gw:hover{background: url("../img/icon-shopping-hover.png") no-repeat center center;}
+
+/*banner-ggt*/
+.banner-ggt{width: auto;height: 400px;background: url("../img/products_02.jpg") no-repeat center center;}
+
+/*banner-nr*/
+.banner-nr{width: 1200px;height: 1560px;background: #fff;margin: 0 auto;position: relative;padding-top: 20px;border-bottom: 1px solid #999;}
+.banner-nr .link01,.banner-nr span{color: #999;}
+.banner-nr .link01:hover{color: #f00;}
+.banner-nr h4,.banner-nr h1{text-align: center;padding: 10px 0;}
+
+
+/*nav01*/
+.nav01{width: 160px;height: auto;position: absolute;left: -160px;}
+.nav01 li a{display: block;padding-left:20px;width: 105px;font-weight: bold;margin-top: 30px;}
+.nav01 li a:hover{color: #f00;border-left: 5px solid #f00;padding-left: 15px;}
+
+
+/*box01*/
+.banner-nr .box01{width: 220px;height: 630px;background: #fff;margin: 50px 40px 20px 40px;float: left;}
+.banner-nr .box01 h3,.banner-nr .box01 p{text-align:center;}
+.banner-nr .box01 p{font-size: 14px;}
+.banner-nr .box01 .anniu{display: block;width: 210px;height: 50px;background: #fff;border-radius: 50px;line-height: 50px;text-align: center;border: 1px solid #333;margin: 0 auto;margin-top: 30px;}
+.banner-nr .box01 .anniu:hover{background: #f00;border: none;color: #fff;}
+
+/*footer*/
+.footer{width: 1200px;height: auto;margin-left: auto;margin-right: auto;}
+.footer h4{text-align: center;color: #333;padding-top: 60px;}
+.footer .icon{width: 440px;height: 108px;margin-left: auto;margin-right: auto;}
+.footer .icon a{display: block;width: 48px;height: 48px;}
+.footer .icon a{width: 48px;height: 48px;float: left;padding: 30px 20px 30px 20px;}
+.footer .icon .a{background: url("../img/share01.png") no-repeat center center;}
+.footer .icon .a:hover{background: url("../img/share01-hover.png") no-repeat center center;transform: scale(1.25);}
+.footer .icon .b{background: url("../img/share02.png") no-repeat center center;}
+.footer .icon .b:hover{background: url("../img/share02-hover.png") no-repeat center center;transform: scale(1.25);}
+.footer .icon .c{background: url("../img/share03.png") no-repeat center center;}
+.footer .icon .c:hover{background: url("../img/share03-hover.png") no-repeat center center;transform: scale(1.25);}
+.footer .icon .d{background: url("../img/share04.png") no-repeat center center;}
+.footer .icon .d:hover{background: url("../img/share04-hover.png") no-repeat center center;transform: scale(1.25);}
+.footer .icon .e{background: url("../img/share05.png") no-repeat center center;}
+.footer .icon .e:hover{background: url("../img/share05-hover.png") no-repeat center center;transform: scale(1.25);}
+
+/*首行缩进：text-indent*/
+.footer .box{width: 1200px;height: 400px;border-bottom: 1px solid #999;}
+.footer .box div a:hover{color: #f00;background: url(../img/red-dot.png) no-repeat left center;}
+.footer .box .link01{width: 300px;height: 400px;float: left;}
+.footer .box .link01 p{color: #333;font-weight: bold;padding-bottom: 30px;}
+.footer .box .link01 a{display: block;color: #999;line-height: 35px;font-size: 14px;text-indent: 15px;}
+
+.footer .box .link02{width: 300px;height: 400px;float: left;}
+.footer .box .link02 p{color: #333;font-weight: bold;padding-bottom: 30px;}
+.footer .box .link02 a{display: block;color: #999;line-height: 35px;font-size: 14px;text-indent: 15px;}
+
+
+.footer .box .link03{width: 300px;height: 400px;float: left;}
+.footer .box .link03 p{color: #333;font-weight: bold;padding-bottom: 30px;}
+.footer .box .link03 a{display: block;color: #999;line-height: 35px;font-size: 14px;text-indent: 15px;}
+
+.footer .box .link04{width: 300px;height: 400px;float: left;}
+.footer .box .link04 p{color: #333;font-weight: bold;padding-bottom: 30px;}
+.footer .box .link04 a{display: block;color: #999;line-height: 35px;font-size: 14px;text-indent: 15px;}
+
+/*bq*/
+footer{width: auto;height: 100px;background: #fff;text-align: center;}
+footer a{line-height: 100px;color: #333;}
+
+
+
+
+
+
+

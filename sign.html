@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SIGN</title>
+<link rel="stylesheet" href="css/sign.css" type="text/css">
+
+<!--下拉菜单js-->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".nav>li").hover(function(){
+			$(this).children('ul').stop(true,true).show(300);
+		},function(){
+			$(this).children('ul').stop(true,true).hide(300);
+		})
+	})
+</script>
+<!--下拉菜单js结束-->
+
+
+<!--返回顶部js开始-->
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+<!--返回顶部js开始-->
+<!--大图切换js和css-->
+<link rel="stylesheet" href="css/lb.css">
+<script src="js/lb.js"></script>
+<script>
+window.onload = function () {
+  // 轮播选项
+  const options = {
+	id: 'lb-1',              // 轮播盒ID
+	speed: 600,              // 轮播速度(ms)
+	delay: 2000,             // 轮播延迟(ms)
+	direction: 'left',       // 图片滑动方向
+	moniterKeyEvent: true,   // 是否监听键盘事件
+	moniterTouchEvent: true  // 是否监听屏幕滑动事件
+  }
+  const lb = new Lb(options);
+  lb.start();
+}
+</script>
+<!--大图切换js和css结束-->
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="link">
+            <a href="">FIND A DEALER&nbsp;&nbsp;</a>
+            <span>/</span>
+            <a href="">&nbsp;&nbsp;SERVICE CENTER</a>
+        </div>
+        <div class="new">
+            <h1></h1>
+            <div class="nav01">
+                            <!--下拉菜单 start-->
+            	        <div class="menu">
+            		<ul class="nav">
+            			<li><a href="index.html">HOME</a>
+            				
+            			</li>
+            			<li><a href="products.html">PRODUCTS</a>
+            				<ul class="sub-nav">
+            					<li><a href="#">PRODUCTS-01</a></li>
+            					<li><a href="#">PRODUCTS-02</a></li>
+            					<li><a href="#">PRODUCTS-03</a></li>
+            					<li><a href="#">PRODUCTS-04</a></li>
+            				</ul>
+            			</li>
+            			<li><a href="stories.html">STORIES</a>
+            	
+            			</li>
+            			<li><a href="support.html">SUPPORT</a>
+            				<ul class="sub-nav">
+            					<li><a href="#">SUPPORT-01</a></li>
+            					<li><a href="#">SUPPORT-02</a></li>
+            				</ul>
+            			</li>
+            </div>
+            <!--下拉菜单 end-->
+          </div>
+            <div class="icon">
+                <a href="" class="ss"></a>
+                <a href="sign.html" class="yh"></a>
+                <a href="" class="gw"></a>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+    
+    <!--  banner  -->
+    <!--大图切换js特效-->
+    <div class="lb-box" id="lb-1">
+    <!-- 轮播内容 -->
+    <div class="lb-content">
+      <div class="lb-item active">
+    	
+    	  <a href="#">
+   	    <img src="img/banner05.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题4</span>-->
+    	</a>
+    		
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+    	 <img src="img/banner05.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题2</span>-->
+    	  
+    	</a>
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+    	 <img src="img/banner05.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题3</span>-->
+    	</a>
+      </div>
+      <div class="lb-item">
+    	<a href="#">
+   	    <img src="img/banner05.jpg" width="1920" height="400" alt=""/>  
+    	  <!--<span>标题4</span>-->
+    	</a>
+      </div>   
+    </div>
+    <!-- 轮播标志 -->
+    <ol class="lb-sign">
+      <li class="active">1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ol>
+    <!-- 轮播控件 -->
+    <div class="lb-ctrl left">＜</div>
+    <div class="lb-ctrl right">＞</div>
+    </div>
+    <!--大图切换js特效结束-->
+    
+    <!-- banner end -->
+    <!-- main -->
+    <div class="main">
+        <div class="box">
+            <div class="link">
+                <a href="">Home&nbsp;&nbsp;</a><span>/</span><a href="">&nbsp;&nbsp;Sign-in</a>
+            </div>
+            <h2>SIGN&nbsp;&nbsp;IN</h2>
+            <div class="nr">
+                <div class="nr01">
+                    <img src="img/sign-p1.jpg" alt="">
+                    <h3>PRODUCT&nbsp;REGISTRAATION</h3>
+                    <p>MySuunto service is now shut down and replaced by our new Suuto product registration service.All you products registered eaelier to MySuunto, continue to be eligble for our international warranty under the warrlanty terms.</p>
+                </div>
+                <div class="nr02">
+                    <img src="img/sign-p2.jpg" alt="">
+                    <h3>PRODUCT&nbsp;REGISTRAATION</h3>
+                    <p>MySuunto service is now shut down and replaced by our new Suuto product registration service.All you products registered eaelier to MySuunto, continue to be eligble for our international warranty under the warrlanty terms.</p>
+                </div>
+                <div class="nr03">
+                    <img src="img/sign-p3.jpg" alt="">
+                    <h3>PRODUCT&nbsp;REGISTRAATION</h3>
+                    <p>MySuunto service is now shut down and replaced by our new Suuto product registration service.All you products registered eaelier to MySuunto, continue to be eligble for our international warranty under the warrlanty terms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main end -->
+    <!-- footer -->
+    <footer>
+        <a href="">AN&nbsp;AMER&nbsp;SPORTS&nbsp;BRAND&nbsp;COPYRIGHT&nbsp;©&nbsp;2020&nbsp;SUUNTO.ALL&nbsp;RIGHTS&nbsp;RESERVED</a>
+    </footer>
+    <!-- footer end -->
+	<!--返回顶部开始-->
+	<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+	<!--返回顶部结束-->
+</body>
+</html>
